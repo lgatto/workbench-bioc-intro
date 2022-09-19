@@ -11,45 +11,45 @@
 carpentry: incubator
 
 # Overall title for pages.
-title: Lesson Title
+title: Introduction to genomic data analysis with R and Bioconductor
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
 created: ~
 
 # Comma-separated list of keywords for the lesson
-keywords: software, data, lesson, The Carpentries
+keywords: data, lesson, Bioconductor
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: pre-alpha
+life_cycle: alpha
 
 # License of the lesson
 license: CC-BY 4.0
 
 # Link to the source repository for this lesson
-source: https://github.com/carpentries/workbench-template-rmd
+source: https://github.com/lgatto/workbench-bioc-into
 
 # Default branch of your lesson
 branch: main
 
 # Who to contact if there are any issues
-contact: team@carpentries.org
+contact: education@bioconductor.org
 
 # Navigation ------------------------------------------------
-# 
+#
 # Use the following menu items to specify the order of
 # individual pages in each dropdown section. Leave blank to
 # include all pages in the folder.
 #
 # Example -------------
-# 
+#
 # episodes:
 # - introduction.md
 # - first-steps.md
-# 
-# learners:
-# - setup.md
-# 
+#
+learners:
+- setup.md
+#
 # instructors:
 # - instructor-notes.md
 #
@@ -57,15 +57,14 @@ contact: team@carpentries.org
 # - one-learner.md
 # - another-learner.md
 
-# Order of episodes in your lesson 
-episodes: 
+# Order of episodes in your lesson
+episodes:
 
 # Information for Learners
-learners: 
+learners:
 
 # Information for Instructors
-instructors: 
+instructors:
 
 # Learner Profiles
-profiles: 
-
+profiles:
